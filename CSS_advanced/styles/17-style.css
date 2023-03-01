@@ -64,7 +64,7 @@ a:active {
 
 .section-header {
     text-align: var(--section-header-align);
-    padding: var(--section-heading-padding);
+    padding: var(--section-header-padding);
 }
 
 .section-body {
@@ -97,6 +97,10 @@ a:active {
     margin-right: auto;
 }
 
+footer {
+    padding: var(--footer-padding);
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -126,8 +130,4 @@ a:active {
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
-}
-
-footer {
-    padding: var(--footer-padding);
 }
