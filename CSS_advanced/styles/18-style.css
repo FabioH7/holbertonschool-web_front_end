@@ -41,6 +41,7 @@ h6 {
     margin: 0;
     padding: 0;
     text-align: center;
+    list-style: none;
 }
 
 .nav .nav-item {
@@ -54,7 +55,7 @@ h6 {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
@@ -161,7 +162,7 @@ a:active {
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%;
+    --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem;
     --nav-item-link-hover: var(--color-primary);
