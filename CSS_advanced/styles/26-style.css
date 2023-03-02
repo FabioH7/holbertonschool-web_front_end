@@ -54,7 +54,7 @@ h6 {
     height: 10rem;
 }
 
-.card-testimonial .card-avatar.style {
+.card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
