@@ -88,6 +88,7 @@ h6 {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
@@ -123,7 +124,9 @@ h6 {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
+    transition: var(–transition-duration) var(transition-cubic-bezier);
 }
+
 
 .card-work:hover .card-outer {
     transform: scale(0.95);
@@ -226,7 +229,7 @@ a:active {
     background: var(--button-hover-background);
     transition-duration: var(--transition-duration);
     transition-property: color;
-    transition-property: background-color;
+    transition-property: "background-color";
 }
 
 ul.row {
