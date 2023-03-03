@@ -82,8 +82,8 @@ h6 {
 }
 
 .card-work .card-inner {
-    position: relative;
-    top: -1rem;
+    position: absolute;
+    top: -0.1rem;
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
